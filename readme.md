@@ -15,7 +15,7 @@ This Project took around 7 hours to complete it.
 - Navbar Designing 
 - Responsive Design
 ***
-# Deployment Link - [Live Link]()
+# Deployment Link - [Live Link](https://hosting-landingpage-01.netlify.app/)
 # Preview 
 ![ScreenShot](./screenshots/screen1.PNG)
 ![ScreenShot](./screenshots/screen2.PNG)
