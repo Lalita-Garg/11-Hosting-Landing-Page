@@ -1,0 +1,366 @@
+/* common to all */
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  width: 100%;
+}
+.margin-inline {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+p {
+  color: #616364db;
+  font-weight: 500;
+  width: 520px;
+  font-size: 16px;
+}
+.h1-black {
+  color: #14263f;
+  font-size: 50px;
+  width: 530px;
+}
+
+/* header */
+nav {
+  height: 150px;
+}
+nav img {
+  width: 100px;
+}
+nav .list {
+  display: flex;
+  margin-left: 400px;
+}
+nav .list-item {
+  margin-inline: 20px;
+  color: #868686;
+  font-weight: 700;
+  font-size: 18px;
+}
+nav .active-list-item{
+  color: #000000;
+}
+.nav-btn {
+  border: 1px solid #5396f1;
+  background-color: transparent;
+  color: #5396f1;
+  padding: 15px 30px;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.section-1 h1 {
+  font-size: 52px;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 520px;
+}
+
+.left-section button {
+  border: none;
+  background-image: linear-gradient(#09b9f7, #0568eb);
+  padding: 15px 30px;
+  width: 200px;
+  border-radius: 10px;
+  color: #ebf7fe;
+  font-size: 16px;
+  margin-top: 40px;
+  opacity: 0, 3;
+  box-shadow: 0px 10px 15px 6px;
+}
+.mb {
+  margin-bottom: 250px;
+}
+
+/* Services We Provide */
+.service-cards {
+  margin-top: 70px;
+  margin-bottom: 150px;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.service-card {
+  width: 350px;
+}
+.service-card p {
+  font-size: 14px;
+  width: 310px;
+}
+.service-card h3 {
+  color: #212f52;
+  font-size: 24px;
+  font-weight: 700;
+}
+.service-card img {
+  width: 50px;
+}
+
+/* Pricing Details */
+.pricing{
+  display: flex;
+  background-image: linear-gradient(90deg,#09b9f7, #0568eb);
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.pricing-h1{
+    color: #fff;
+    font-size: 44px;
+    line-height: 2.5;
+}
+.pricing-cards{
+    width: 80%;
+}
+.pricing-card{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 350px;
+    height: 650px;
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+   margin-left: 30px;
+}
+.pricing-card h2{
+  color: #212f52;
+  font-size: 28px;
+  font-weight: 700;
+}
+.features-list{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.check-icon{
+  color:#44e1b7;
+  border-radius: 50%;
+  border: 1px solid #44e1b7;
+  padding: 2px;
+  margin-right: 20px;
+}
+.features {
+  display: flex;
+  align-items: center;
+}
+.features p{
+  color:#424d6b;
+  font-weight: 700;
+}
+.price-details{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.price-details h1{
+  font-size: 40px;
+  color: #212f52;
+  line-height: 0;
+}
+.price-details h1 span{
+  color: #616364db;
+}
+.price-details h4 {
+  color: #616364db;
+  font-weight: 500;
+  font-size: 16px;
+}
+.price-details button{
+  border: 2px groove #5396f1;
+  background-color: transparent;
+  color: #5396f1;
+  padding: 14px 30px;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 180px;
+}
+.active .heading{
+     display: flex;
+    flex-direction: column;
+    background-color:#353535;
+    margin-left: 0;
+    border-radius: 10px;
+}
+.active .heading h2{
+  margin-left: 30px;
+  color: #fff;
+}
+.active .heading p{
+  margin-left: 30px;
+  width: fit-content;
+  color:   #d0d0d0;
+}
+.active button{
+  border: none;
+  background-image: linear-gradient(#09b9f7, #0568eb);
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  border-radius: 10px;
+  color: #ebf7fe;
+  opacity: 0, 3;
+  box-shadow: 0px 10px 15px 6px;
+}
+
+
+
+/* customer feedback */
+
+
+.feedback-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.feedback-heading h1{
+  color: #14263f;
+  font-size: 50px;
+  width: fit-content;
+}
+.feedback-heading p{
+  width: 720px;
+  text-align: center;
+}
+.feedback-container {
+  flex-wrap: wrap;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.feedback-card {
+  border: 1px solid #b1b8c8;
+  margin-bottom: 40px;
+  width: 640px;
+  height: 270px;
+}
+.feedback-card p{
+  color:#58627d;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.costumer-info{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+.customer-name{
+  margin-left: 30px;
+}
+.customer-name h4{
+  color: #646d86;
+}
+.customer-name h3{
+  color: #263456;
+}
+.costumer-img{
+  background-color:#d9d9d9;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+}
+
+/* Resister Now Section */
+.register{
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(270deg,#09b9f7, #0568eb);
+  margin-top: 100px;
+}
+.register h1{
+  color: #fff;
+  font-size: 44px;
+  line-height: 1.5;
+  width: 500px;
+  margin-left: 100px;
+}
+.register p{
+  color: #fff;
+  width: 470px;
+  margin-left: 100px;
+}
+.register button{
+  margin-right: 100px;
+  border: 2px groove #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 18px 30px;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 180px;
+}
+
+/* Footer */
+.footer{
+  align-items: flex-end;
+  height: 300px;
+  margin-bottom: 50px;
+}
+.footer-left{
+  margin-left: 100px;
+}
+.footer-left img{
+  width: 100px;
+} 
+.footer-left p{
+  width: 270px;
+  line-height: 2;
+  margin-top: 50px;
+}
+.footer-right{
+  width: 800px;
+  height: 300px;
+  display: flex;
+  margin-right: 100px;
+}
+.footer-right .list{
+  height: 170px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.list-head{
+  color: #212f52;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer-right .list-item{
+  color: #616364db;
+  font-weight: 500;
+  font-size: 16px;
+}
+.list img{
+  width: 150px;
+}

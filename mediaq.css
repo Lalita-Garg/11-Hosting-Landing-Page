@@ -1,0 +1,193 @@
+/* Tab View */
+
+@media  screen and (max-width:800px) {
+    nav .list {
+        display: flex;
+        margin-left: 0px;
+        flex-wrap: hidden;
+      }
+      nav .list-item:last-child{
+        display: none;
+      }
+      nav .list-item {
+       font-size: 14px;
+       margin-left: 10px;
+       font-weight: 300;
+      }
+      nav button{
+        padding: 0;
+      }
+      .margin-inline {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .h1-black {
+        color: #14263f;
+        font-size: 30px;
+        width: 530px;
+      }
+      .section-1 h1 {
+        font-size: 34px;
+        color: #1a1a1a;
+        font-weight: 700;
+        line-height: 1.5;
+      }
+      .mb{
+        margin-bottom: 50px;
+      }
+      p{
+        width: 450px;
+      }
+      .service-cards{
+        margin-bottom: 70px;
+      }
+      .service-card{
+        width: 300px;
+        border: 1px solid #b1b8c8;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .service-card p{
+        width: 200px;
+      }
+      .right-section img{
+        width:170px;
+      }
+      .pricing-h1{
+        width: 700px;
+      }
+      .pricing-cards{
+        flex-direction: column;
+    }
+    .pricing-card{
+        margin-bottom: 50px;
+    }
+    .feedback-heading{
+        margin-top: 50px;
+    }
+    .feedback-heading h1{
+        margin-bottom: 0px;
+    }
+    .feedback-heading p{
+        width: 500px;
+    }
+    .register h1{
+        font-size: 40px;
+        width: 420px;
+        margin-left: 30px;
+      }
+      .register p{
+        width: 400px;
+        margin-left: 30px;
+      }
+      .register button{
+        margin-right: 30px;
+      }
+      .footer{
+        align-items: center;
+        height: 300px;
+        margin-bottom: 0px;
+      }
+      .footer-left{
+        display: none;
+      }
+      .footer-right{
+        margin-left: 70px;
+      }
+}
+
+
+
+/* Mobile View */
+
+@media  screen and (max-width:600px) {
+    nav .list {
+        display: none;
+      }
+      .margin-inline {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .h1-black {
+        color: #14263f;
+        font-size: 30px;
+        width: 400px;
+      }
+      .section-1 h1 {
+        font-size: 34px;
+        color: #1a1a1a;
+        font-weight: 700;
+        line-height: 1.5;
+        width: 400px;
+      }
+      .mb{
+        margin-bottom: 50px;
+      }
+      p{
+        width: 400px;
+      }
+      .service-cards{
+        margin-bottom: 30px;
+      }
+      .service-card{
+        width: 600px;
+        border: 1px solid #b1b8c8;
+        padding: 20px;
+        margin-bottom: 50px;
+      }
+      .right-section{
+        display: none;
+      }
+      .pricing-h1{
+        width: 500px;
+        line-height: normal;
+        text-align: center;
+      }
+      .pricing-cards{
+        flex-direction: column;
+    }
+    .pricing-card{
+        margin-bottom: 50px;
+    }
+    .feedback-heading{
+        margin-top: 50px;
+    }
+    .feedback-heading h1{
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+    .feedback-heading p{
+        width: 400px;
+    }
+    .feedback-container {
+        margin-right: 0px;
+        margin-left: 10px;
+      }
+    .feedback-card {
+        margin-bottom: 10px;
+        width: 600px;
+      }
+    .register{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .register button{
+        margin-bottom: 20px;
+    }
+    .footer-right{
+     width: 600px;
+     margin-left: 20px;
+     margin-right: 20px;
+    }
+    .list-head{
+        color: #212f52;
+        font-size: 16px;
+      }
+      .footer-right .list-item{
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .list img{
+        width: 100px;
+      }
+}
