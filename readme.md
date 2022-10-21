@@ -22,6 +22,17 @@ This Project took around 7 hours to complete it.
 ![ScreenShot](./screenshots/screen3.PNG)
 ![ScreenShot](./screenshots/screen4.PNG)
 
+## Desktop View
+https://user-images.githubusercontent.com/111582082/197270755-35d800a0-e2aa-43db-b582-82f4da2702e7.mp4
+
+## Tab View
+
+https://user-images.githubusercontent.com/111582082/197270701-6a07607c-f5c7-4c82-8b57-b074e8c0caae.mp4
+
+## Mobile View
+
+https://user-images.githubusercontent.com/111582082/197270671-77ff3f41-187f-432e-813d-b1c0755cfad7.mp4
+
 
 
 
